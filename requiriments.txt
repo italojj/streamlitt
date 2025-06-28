@@ -1,6 +1,6 @@
 streamlit 
 pyvis
-newtworkx
+networkx
 pandas
 
 

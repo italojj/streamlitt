@@ -8,7 +8,7 @@ st.title("Análise e Visualização da Rede Wikipedia")
 st.write("Esta aplicação analisa e visualiza uma rede de conexões extraída da Wikipedia.")
 
 try:
-    df = pd.read_csv("minha_rede_wikipedia.csv")
+    df = pd.read_csv("network_analysis.csv")
 
     st.success("Dataset da rede carregado com sucesso!")
 

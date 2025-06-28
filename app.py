@@ -14,7 +14,7 @@ try:
     if 'source' in df.columns and 'target' in df.columns:
         G = nx.from_pandas_edgelist(df, 'source', 'target')
         
-        grau_minimo = 4
+        grau_minimo = 5
         nos_selecionados = [n for n, d in G.degree() if d > grau_minimo]
         G_subsubgraph = G.subgraph(nos_selecionados)
         

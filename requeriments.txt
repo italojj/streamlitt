@@ -1,6 +1,6 @@
 streamlit 
 pyvis
-matplotlib
+newtworkx
 pandas
 
 
